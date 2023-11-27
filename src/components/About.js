@@ -27,7 +27,7 @@ const About = () => {
     >
       <div className="md:w-1/2 md:pl-32 text-white space-y-4 ">
         <h2 className="text-2xl font-semibold text-[#F86F03] text-[30px]">
-          Hi, it's me
+          Hi, it&apos;s me
         </h2>
         <div className="text-[#FFF] font-bold text-5xl">Safiur Rahaman</div>
         <div className="text-white font-semibold text-3xl">
