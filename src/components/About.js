@@ -20,6 +20,10 @@ const About = () => {
     </svg>`,
     // Add more SVG content as needed
   ];
+  const socialLink = [
+    "https://www.linkedin.com/in/safiur-rahaman-52a492142/",
+    "https://github.com/safiur799",
+  ];
   return (
     <div
       className="flex flex-col md:flex-row  items-center justify-center bg-[#31065A]  aboutSectioin"
@@ -38,14 +42,14 @@ const About = () => {
           websites and web applications.
         </p>
         <div className="buttonAlign">
-          <SvgGrid svgs={svgContents} />
+          <SvgGrid svgs={svgContents} socilaLink={socialLink} />
         </div>
 
         <AnimatedButton text="Download Cv" />
       </div>
       <div className="md:w-1/2 md:pr-24">
         <img
-          src="./Banner_image.png"
+          src="./Banner_image.jpg"
           alt="Image Description"
           className="w-full h-auto md:h-auto"
         />
