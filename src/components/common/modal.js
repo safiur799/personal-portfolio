@@ -5,10 +5,10 @@ const Modal = ({ isOpen, onClose, project }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
+    <div className="fixed top-0 left-0 w-full h-full z-10  flex justify-center items-center bg-black bg-opacity-50">
       <div className="bg-white p-4 sm:p-8 w-full max-w-3xl sm:max-w-4xl md:max-w-5xl rounded-lg relative">
         <button
-          className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+          className="absolute top-2 right-2 bg-[#F86F03] hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105"
           onClick={onClose}
         >
           Close
@@ -33,7 +33,7 @@ const Modal = ({ isOpen, onClose, project }) => {
               href={project.sourceCode}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+              className="bg-[#F86F03] hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105"
             >
               Source Code
             </a>
@@ -43,7 +43,7 @@ const Modal = ({ isOpen, onClose, project }) => {
               href={project.deployLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded"
+              className="bg-green-600 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105"
             >
               Deploy Link
             </a>

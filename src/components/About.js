@@ -26,7 +26,7 @@ const About = () => {
   ];
   return (
     <div
-      className="flex flex-col md:flex-row  items-center justify-center bg-[#31065A]  aboutSectioin"
+      className="flex flex-col md:flex-row pb-8   items-center justify-center bg-[#31065A]  aboutSectioin"
       id="about"
     >
       <div className="md:w-1/2 md:pl-32 text-white space-y-4 ">
@@ -49,7 +49,7 @@ const About = () => {
       </div>
       <div className="md:w-1/2 md:pr-24">
         <img
-          src="./Banner_image.jpg"
+          src="./computer_image.png"
           alt="Image Description"
           className="w-full h-auto md:h-auto"
         />

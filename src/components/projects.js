@@ -17,7 +17,7 @@ const Projects = () => {
 
   return (
     <div
-      className="bg-[#170550] items-center flex-col space-y-8 pt-8 px-8 pb-8"
+      className="bg-[#170550] items-center flex-col space-y-8 pt-4 px-8 pb-16"
       id="projects"
     >
       <TextWithLine text="Projects" />
@@ -25,7 +25,7 @@ const Projects = () => {
         {projectsData.map((project, index) => (
           <div
             key={index}
-            className="border p-4 cursor-pointer"
+            className="border p-4 cursor-pointer rounded"
             onClick={() => openModal(project)}
           >
             <h3 className="text-lg font-semibold mb-2">{project.title}</h3>

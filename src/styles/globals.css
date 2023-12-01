@@ -40,3 +40,8 @@
     margin-right: 10px;
   }
 }
+@media (max-width: 600px) {
+  .navSection {
+    padding: 0px 16px;
+  }
+}

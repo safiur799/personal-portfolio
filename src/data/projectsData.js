@@ -14,7 +14,7 @@ const projectsData = [
     id: 2,
     title: "Project 2",
     description:
-      "ixigo is an Indian online travel portalixigo aggregates and compares real-time travel information, prices and availability for flights, trains, buses, and hotels, and allows ticket booking through its associate websites and apps",
+      "Ixigo is an Indian online travel portalixigo aggregates and compares real-time travel information, prices and availability for flights, trains, buses, and hotels, and allows ticket booking through its associate websites and apps",
     image: "/ixigo-login.png",
     deployLink: "https://ixigo-frondend.vercel.app/",
     sourceCode: "https://github.com/ananthu-asokkumar/ixigo-thugs",
@@ -26,10 +26,10 @@ const projectsData = [
     id: 3,
     title: "Project 3",
     description:
-      "ixigo is an Indian online travel portalixigo aggregates and compares real-time travel information, prices and availability for flights, trains, buses, and hotels, and allows ticket booking through its associate websites and apps",
-    image: "/image_ajio_project.png",
-    deployLink: "https://ajio-clone-safiur799.vercel.app/",
-    sourceCode: "https://github.com/himanshubisht31/Ajio_Clone",
+      "This Twitter clone allows users to tweet text and images, retweet, like, and comment on tweets made by other users. The user can also make their profile. Also, users can explore Twitter where user can view trending news on different topics.",
+    image: "/twitter-clone.png",
+    deployLink: "https://twitter-client-mu.vercel.app/",
+    sourceCode: "https://github.com/Malek1117/twitter_clone_master",
     technologies: "Mern-Stack",
     // Other properties related to the project
   },

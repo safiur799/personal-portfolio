@@ -13,10 +13,10 @@ function Description() {
         <div className="flex flex-col   md:flex-row  gap-8 py-8">
           <div className="md:pl-48 ImageCenter ">
             <img
-              src="./persion.jpg"
+              src="./professional.jpg"
               alt="Image Description"
-              className=" h-auto md:h-auto rounded "
-              style={{ maxWidth: "360px", maxHeight: "350px" }}
+              className=" h-auto md:h-auto rounded-full "
+              style={{ width: "250px", maxHeight: "250px" }}
             />
           </div>
           <div className="flex flex-col  md:w-1/2 space-y-8">
