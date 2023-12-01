@@ -38,6 +38,36 @@ const Projects = () => {
               />
             </div>
             <p className="text-sm">{project.description}</p>
+            <div className="flex space-x-4 mb-4 mt-4">
+              {project.sourceCode && (
+                <a
+                  href={project.sourceCode}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#F86F03] hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105"
+                >
+                  Source Code
+                </a>
+              )}
+              {project.deployLink && (
+                <a
+                  href={project.deployLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-600 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105"
+                >
+                  Deploy Link
+                </a>
+              )}
+            </div>
+            <div className="flex items-center">
+              <h3 className="text-lg font-semibold  text-[#F86F03]">
+                Technologies Used:
+              </h3>
+              <span className="text-sm sm:text-base  pl-2 text-white">
+                {project.technologies}
+              </span>
+            </div>
           </div>
         ))}
         <Modal
