@@ -70,11 +70,11 @@ const Projects = () => {
             </div>
           </div>
         ))}
-        <Modal
+        {/* <Modal
           isOpen={!!selectedProject}
           onClose={closeModal}
           project={selectedProject || {}}
-        />
+        /> */}
       </div>
     </div>
   );

@@ -45,3 +45,14 @@
     padding: 0px 16px;
   }
 }
+
+@media (max-width: 1024px) {
+  .contact__container {
+    padding-left: 64px;
+  }
+}
+@media (min-width: 1025px) {
+  .contact__container {
+    padding-left: 256px;
+  }
+}

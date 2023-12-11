@@ -31,7 +31,10 @@ function Contact() {
     <div className="bg-[#31065A] pt-4 " id="contact">
       <TextWithLine text="Contact" />
       <div className="flex flex-col md:flex-row pt-8 pb-24 items-center justify-center bg-[#31065A]">
-        <div className="md:w-1/2 md:pl-64  text-white space-y-4">
+        <div
+          className="md:w-1/2  contact__container  text-white space-y-4 "
+          style={{}}
+        >
           <div className="container mx-auto p-4 space-y-4 ">
             {contactData.map((el, index) => {
               return (
